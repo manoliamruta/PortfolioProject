@@ -1,0 +1,80 @@
+/* General styling */
+* {
+    box-sizing       : border-box;
+    font-family      : "Stint Ultra Expanded";
+  }
+
+  body {
+    width            : 100%;
+    height           : 100%;
+    background-color : #b0e0e6;
+    font-family      : "Stint Ultra Expanded";
+  }
+
+  .name {
+    text-align       : right;
+    color            : #2f4f4f;
+    padding          : 0.5em;
+    margin-top       : 0px;
+  }
+
+  .profession {
+    text-align       : right;
+    color            : #2f4f4f;
+    padding          : 1.0em;
+    margin-top       : 0px;
+  }
+
+  .content {
+    text-align       : left;
+    color            : #2f4f4f;
+    padding          : 1.0em;
+    margin-top       : 20px;
+  }
+
+  .caption {
+    text-align       : center;
+    color            : #2f4f4f;
+    padding          : 1.0em;
+  }
+
+  .bordered{
+    border           : 2px solid #2f4f4f;
+  }
+
+  .container {
+    padding          : 1.0em;
+  }
+   
+  .feature {
+    text-align       : center;
+    color            : #2f4f4f;
+    padding          : 1.0em;
+    font-weight      : 600;
+    margin-top       : 0px;
+  }
+  
+  .img_width {
+    width            : 100%;
+  }
+
+  .img-responsive{
+    margin           : 0 auto;
+  }
+
+/* Responsive styling of fonts */
+  h1 {
+    font-size: 3.5vw;
+  }
+
+  h2 {
+    font-size: 2.5vw;
+  }
+
+  h5 {
+    font-size: 2.0vw;
+  }
+
+  p {
+    font-size: 2.0vw;
+  }
